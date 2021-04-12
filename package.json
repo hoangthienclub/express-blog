@@ -1,0 +1,24 @@
+{
+  "name": "NodeTs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node ./src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "envalid": "^7.1.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.3",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.37"
+  }
+}
